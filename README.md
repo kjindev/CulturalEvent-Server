@@ -1,4 +1,4 @@
-## CulturalEventProject의 서울시립미술관 API를 위한 서버입니다.
+## CulturalEventProject의 API를 위한 서버입니다.
 
 ## Stacks
 
