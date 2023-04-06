@@ -1,16 +1,24 @@
-## CulturalEventProject의 서울 문화행사 안내 API를 위한 서버입니다.
+# CulturalEventProject 서버
 
-CORS 에러 해결을 위해 만든 간단한 서버입니다. Express로 API 요청을 받아오고 CORS 라이브러리를 통해 CORS 에러가 발생하지 않도록 합니다. 이렇게 받아온 API 데이터를 프론트엔드에서 가져갈 수 있도록 페이지로 배포하였습니다.
+CulturalEventProject의 REST API 이용 및 CORS 에러를 해결하기 위해 개발된 Express 서버입니다.
 
-## Stacks
-
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=TypeScript&logoColor=white"/> <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=Node.js&logoColor=white"/> <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=Express&logoColor=white"/>
-
-## link
+### 배포 Page
 
 https://port-0-culturaleventapi-server-r8xoo2mles8gzra.sel3.cloudtype.app/
 
-## Features
+### 사용 기술
 
-- Cloudtype을 이용하여 페이지를 배포하였습니다.
-- 서버 측에서 CORS를 해결하였기 때문에, 프론트엔드 측에서는 CORS 에러 없이 API 데이터를 받아올 수 있습니다.
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=TypeScript&logoColor=white"/> <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=Node.js&logoColor=white"/> <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=Express&logoColor=white"/>
+
+### 개발 목적
+
+- REST API 이용 및 CORS 에러 해결
+
+### 개발 내용
+
+- REST API 요청
+  - Express로 REST API를 작성하여 프론트엔드와 백엔드가 HTTP 메소드로 통신할 수 있도록 하였습니다.
+- 공공 API의 CORS 에러 해결
+  - 서울시 문화행사의 공공 API를 받아오던 중 CORS 에러가 발생하였습니다.
+  - TypeScript와 Express로 API 데이터를 받아오는 서버를 만들고, Express의 CORS 라이브러리를 이용하여 에러를 해결했습니다.
+  - 이렇게 받아온 API 데이터를 프론트엔드에서 가져갈 수 있도록 페이지로 배포하였습니다.
